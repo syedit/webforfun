@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: 0;
+}
+main {
+    height: 100vh;
+}
+
+.logoflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    padding: 20px;
+    position: relative;
+
+}
+.titleCont {
+    margin-top: 15px;
+}
+.titleMain {
+    color: #ffd902;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.titleCont p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.titleCont h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffd902;
+}
+#myForm {
+    max-width: 1500px;
+    margin-inline: auto;
+    position: relative;
+}
+.formContainer {
+    background-color: rgba(251, 251, 251, 1);
+    border-radius: 15px;
+    max-width: 660px;
+    margin-inline: auto;
+    padding: 32px 48px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+    margin-block: 40px;
+}
+.form-floating {
+    margin-bottom: 40px;
+}
+.formSelect {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 20px 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 50% !important;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.form-check-box {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 10% !important;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.custome-checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkboxFlex {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+.cricket {
+    margin-left: 5px;
+}
+.sizeContainer {
+    display: none;
+}
+.successMessage {
+    display: none;
+  width: 800px;
+  height: 600px;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 15px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 5px 4px 2px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  /* transform: scale(0); */
+  transition: all 0.2s ease-in-out;
+  top: 0%;
+}
+
+.tickCont {
+    margin-top: 20px;
+}
+
+.sucMess {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.close-icon {
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 0;
+  }
+
+label {
+    color: #999999;
+}
+.badflex {
+    margin-bottom: 20px;
+}
+
+.loader {
+    display: none;
+    width: 300px;
+  height: 150px;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 8px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 5px 4px 2px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  /* transform: scale(0); */
+  transition: all 0.2s ease-in-out;
+  top: 0%;
+}
+
+.loader h5 { 
+    margin-top: 40px;
+
+}
+.logoContainer {
+    margin-top: 10px;
+}
+.snusaLogo {
+    display: block;
+    margin-top: 10px;
+}
+.mobilelogo {
+    display: none;
+}
+.sharmaImage {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.harika{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+.danunjay-rao{
+    position: absolute;
+    left: 13%;
+    top: 50%;
+}
+.vaishnavi{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+.shruthika{
+    position: absolute;
+    left: 5%;
+    top: 72%;
+}
+.pawan{
+    position: absolute;
+    left: 13%;
+    top: 72%;
+}
+.uma{
+    position: absolute;
+    left: 20%;
+    top: 72%;
+}
+.dateImg {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
+.venueImg {
+    position: absolute;
+    right: 15%;
+    top: 60%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        padding: 0px !important;
+    }
+    .formContainer {
+        padding: 10px 10px;
+    }
+    .alumni {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .logoContainer {
+        margin-top: 20px;
+    }
+    .mobilelogo, .snusaLogo {
+        margin-top: 20px;
+        display: inline-block;
+        margin-inline: auto;
+        text-align: center !important;
+    }
+    .col-md-2 {
+        text-align: center !important;
+    }
+    .successMessage {
+        display: none;
+      width: 360px;
+      height: 700px;
+      position: fixed;
+      background-color: #f6f6f6;
+      border-radius: 16px;
+      padding: 15px;
+      inset: 0;
+      margin: auto;
+      box-shadow: 0 5px 4px 2px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      /* transform: scale(0); */
+      transition: all 0.2s ease-in-out;
+      top: 0%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .sharmaImage {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .sharmaImage {
+        position: absolute;
+        left: 0%;
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .mani-sharma-img {
+       
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .mani-sharma-img {
+       display: none;
+    }
+}
